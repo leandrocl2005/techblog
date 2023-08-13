@@ -143,6 +143,17 @@ section {
     color: #118AB2;
 }
 
+.icon-container {
+    transition: 200ms;
+    border-radius: 8px;
+}
+
+.icon-container:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.05);
+    transform: scale(1.05);
+}
+
 .icon-prev, .icon-next {
     color: #6c757dff;
     font-size: 2rem;
